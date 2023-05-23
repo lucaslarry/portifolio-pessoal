@@ -42,6 +42,10 @@ nav a {
     color: #ffffff;
 }
 
+nav a:hover {
+    color: #000000;
+}
+
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     color: #000000;
@@ -99,9 +103,14 @@ img {
     height: 65vh;
     align-items: center;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px;
+    box-shadow: 1px 1px 5px;
     border: 1px solid #444444;
     cursor: pointer;
+}
+
+.projeto:hover {
+    box-shadow: 4px 4px 30px 5px;
+
 }
 
 #projetos {

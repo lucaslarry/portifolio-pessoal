@@ -100,7 +100,7 @@ img {
     background-color: #EDEDED;
     padding: 15px;
     width: 23rem;
-    height: 65vh;
+    height: 450px;
     align-items: center;
     border-radius: 10px;
     box-shadow: 1px 1px 5px;
@@ -111,6 +111,13 @@ img {
 .projeto:hover {
     box-shadow: 4px 4px 30px 5px;
 
+
+}
+
+.projeto img {
+    border: 3px solid rgba(0, 0, 0, 0.231);
+    border-radius: 5px;
+    width: 200px;
 }
 
 #projetos {
